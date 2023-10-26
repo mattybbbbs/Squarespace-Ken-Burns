@@ -1,0 +1,13 @@
+/*KEN BURNS EFFECT FOR THE AUTO LAYOUT BANNER SLIDESHOW (7.1)
+PLace this css in the custom css menu. Ensure you are targeting the proper class by inspecting the element and setting the layout to slide show*/
+
+
+
+
+.user-items-list-banner-slideshow .list-item:not([aria-hidden="true"]) img {
+    transform: scale(1.1) translateY(50px);
+  }
+  .user-items-list-banner-slideshow .list-item img {
+    transition: transform 20s;
+    filter: brightness(40%);
+  }
